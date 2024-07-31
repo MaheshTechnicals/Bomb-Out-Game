@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #222222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  background: #6715A9;
+  margin-bottom: 40px;
+  padding: 0 10px;
+  border-bottom: 1px solid #B7AE7A;
+}
+
+#head h1 {
+  font-size: 20px;
+  color: #B7AE7A;
+  font-weight: bold;
+}
+
+#head div {
+  display: flex;
+}
+
+#head div p {
+  margin-left: 5px;
+  color: yellow;
+  font-weight: bold;
+}
+
+#gameboard {
+  height: 430px;
+  /* Adjusted height to account for the gaps */
+  width: 350px;
+  /* Adjusted width to account for the gaps */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  /* Reduced gap to decrease space between rows and columns */
+
+}
+
+#gameboard button {
+  height: 81px;
+  width: 81px;
+  background: #6715A9;
+  margin: 2px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0.5px solid #B7AE7A;
+
+
+}
+
+#reset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+  display: none;
+
+}
+
+#reset i {
+  height: 40px;
+  width: 40px;
+  border: 1px solid #B7AE7A;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#result {
+  display: flex;
+  margin: 50px 0;
+  background: #B7AE7A;
+  width: 70%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  color: #222222;
+  gap: 5px;
+  display: none;
+}
